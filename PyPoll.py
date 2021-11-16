@@ -54,6 +54,20 @@ with open(file_to_load) as election_data:
           # Add a vote to that candidate's count.
           candidate_votes[candidate_name] += 1     
 
+# Using the with statement open the file as a text file.
+with open(file_to_save, "w") as txt_file:
+
+     # Print the final vote count to the terminal.
+     election_results = (
+          f"\nElection Results\n"
+          f"-------------------------\n"
+          f"Total Votes: {total_votes:,}\n"
+          f"-------------------------\n")
+     print(election_results, end="")
+          
+     # Save the final vote count to the text file.
+     txt_file.write(election_results)
+
      # Iterate through the candidate list
      for candidate_name in candidate_votes:
 
@@ -62,13 +76,18 @@ with open(file_to_load) as election_data:
           # Calculate the percentage of votes.
           vote_percentage = float(votes) / float(total_votes) * 100
           # Print the candidate name and percentage of votes.
-          print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-
+          candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+          # Print each candidate, their voter count, and percentage to the terminal.
+          print(candidate_results)
+          #  Save the candidate results to our text file.
+          txt_file.write(candidate_results)
+               
+          # Determine winning vote count, winning percentage, and candidate.
           if (votes > winning_count) and (vote_percentage > winning_percentage):
                winning_count = votes
                winning_percentage = vote_percentage
                winning_candidate = candidate_name
-     
+          
      winning_candidate_summary = (
           f"-------------------------\n"
           f"Winner: {winning_candidate}\n"
@@ -76,22 +95,6 @@ with open(file_to_load) as election_data:
           f"Winning Percentage: {winning_percentage:.1f}%\n"
           f"-------------------------\n")
      print(winning_candidate_summary)
-                    
 
-# # Print the candidate vote dictionary.
-# print(candidate_votes)
-
-# # Print candidate list          
-# print(candidate_options)          
-
-# # Print total votes
-# print(f"Total number of votes: {total_votes:,.0f}")
-
-
-
-
-# # Using the with statement open the file as a text file.
-# with open(file_to_save, "w") as txt_file:
-
-#      # Write three counties to the file.
-#      txt_file.write("Counties in the Election\n------------------------\nArapahoe\nDenver\nJefferson")
+     # Save the winning candidate's name to the text file.
+     txt_file.write(winning_candidate_summary)
