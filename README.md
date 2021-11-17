@@ -41,4 +41,4 @@ The analysis of the election show that:
 
 ## Recommendations
 
-- 
+- The script can be modified for saber en que county los candidatos optuvieron mas votos y para elecciones mas grandes donde se pueda a analizar por estado y ciudades.
