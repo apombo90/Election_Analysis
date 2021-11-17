@@ -37,4 +37,8 @@ The analysis of the election show that:
 
   - Diana DeGette won a comfortable victory in the elections, defeating the other candidates by a high margin.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![candidate_results.png](Resources/candidate_results.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![winner_results.png](Resources/winner_results.PNG)
+
+## Recommendations
+
+- 
