@@ -17,6 +17,16 @@ Analysis done for a Board of Elections employee who needed to complete an electi
 ## Summary
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
-- The candidates were:
+- The voters turnout for each county were:
 
-![county_results.png](Resources/county_results.png)
+  - There were 38,855 votes in Jefferson which represented the 10.5% of the total count.
+  - Arapahoe county had the lowest voters turnout with only 24,801 votes that represent the 6.7% of the total count. 
+  - Denver had the highest participation with the 82.8% of the total count wich is the equivalent of 306,055 votes.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![county_results.png](Resources/county_results.png)
+
+- The candidates results were:
+
+  - Charles Casper Stockham won the 23.0% of the total count getting a total of 85,213 votes.
+  - Diana DeGette on the other hand, received 272,892 votes that represent the 73.8% of the total count.
+  - Raymon Anthony Doane was the candidate with the least number of votes (11,606) for a 3.1% of the total count.
