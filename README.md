@@ -30,3 +30,5 @@ The analysis of the election show that:
   - Charles Casper Stockham won the 23.0% of the total count getting a total of 85,213 votes.
   - Diana DeGette on the other hand, received 272,892 votes that represent the 73.8% of the total count.
   - Raymon Anthony Doane was the candidate with the least number of votes (11,606) for a 3.1% of the total count.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![candidate_results.png](Resources/candidate_results.png)
