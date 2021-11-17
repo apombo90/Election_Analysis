@@ -31,4 +31,10 @@ The analysis of the election show that:
   - Diana DeGette on the other hand, received 272,892 votes that represent the 73.8% of the total count.
   - Raymon Anthony Doane was the candidate with the least number of votes (11,606) for a 3.1% of the total count.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![candidate_results.png](Resources/candidate_results.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![candidate_results.png](Resources/candidate_results.PNG)
+
+- The election winner:
+
+  - Diana DeGette won a comfortable victory in the elections, defeating the other candidates by a high margin.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![candidate_results.png](Resources/candidate_results.PNG)
